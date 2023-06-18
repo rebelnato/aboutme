@@ -1,0 +1,59 @@
+*{
+    background-color: #cac7c7;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 80%;
+    width: 80%;
+    margin: 5%;
+    margin-left: 10%;
+}
+
+.avtar{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 8%;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    box-shadow: 6px 6px 10px 0 #aaa, -10px -10px 10px 0 rgb(220, 218, 218);
+    border-radius: 2%;
+    transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75 ease-in-out;
+    -o-transition: all 0.75 ease-in-out;
+}
+.avtar:hover , .avtar:active{
+    box-shadow:inset 6px 6px 8px 0 rgb(148, 147, 147),inset -8px -8px 12px 0 rgb(148, 147, 147);
+}
+
+.niraj{
+    width: 40%;
+    height: 100%;
+    margin-right: 8%;
+    float: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    box-shadow: 10px 10px 12px 0 rgb(220, 218, 218) ,-6px -6px 12px 0 #aaa;
+    border-radius: 2%;
+    transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75 ease-in-out;
+    -o-transition: all 0.75 ease-in-out;
+}
+
+.niraj:hover , .niraj:active{
+    
+    box-shadow:inset 6px 6px 8px 0 rgb(148, 147, 147),inset -8px -8px 12px 0 rgb(148, 147, 147);
+}
+
+.image{
+    width: 100%;
+}
+.image:hover{
+    visibility: hidden;
+}
