@@ -1,5 +1,5 @@
-*{
-    background-color: #cac7c7;
+body{
+    background-image: linear-gradient(to RIGHT , #1fa0ff , #1ed1ed , #5bcd8c);
     margin: 0;
     padding: 0;
 }
@@ -13,47 +13,164 @@
 
 .avtar{
     width: 40%;
-    height: 100%;
-    float: left;
+    height: 80%;
+    border-radius: 4%;
+    background-color: #3dc679;
+/*     background-image: linear-gradient(to RIGHT , #0cb1cb , #4dca83 );
+ */    float: left;
     margin-left: 8%;
     background-position: center;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    box-shadow: 6px 6px 10px 0 #aaa, -10px -10px 10px 0 rgb(220, 218, 218);
-    border-radius: 2%;
-    transition: all 0.75s ease-in-out;
-    -webkit-transition: all 0.75s ease-in-out;
-    -moz-transition: all 0.75 ease-in-out;
-    -o-transition: all 0.75 ease-in-out;
+    transition: 0.5s;
+    position: relative;
 }
-.avtar:hover , .avtar:active{
-    box-shadow:inset 6px 6px 8px 0 rgb(148, 147, 147),inset -8px -8px 12px 0 rgb(148, 147, 147);
+.avtar:hover .overlay{
+    z-index: 1;
+    transform: scale(1.025);
+    opacity: 0.85;
+    border-radius: 4%;
 }
 
 .niraj{
     width: 40%;
-    height: 100%;
-    margin-right: 8%;
-    float: right;
-    background-repeat: no-repeat;
+    border-radius: 4%;
+    background-color: #0cb1cb;
+    /* background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb ); */
+    float: left;
+    margin-left: 8%;
     background-position: center;
-    background-size: 80%;
-    box-shadow: 10px 10px 12px 0 rgb(220, 218, 218) ,-6px -6px 12px 0 #aaa;
-    border-radius: 2%;
-    transition: all 0.75s ease-in-out;
-    -webkit-transition: all 0.75s ease-in-out;
-    -moz-transition: all 0.75 ease-in-out;
-    -o-transition: all 0.75 ease-in-out;
+    transition: 0.5s;
+    position: relative;
 }
 
-.niraj:hover , .niraj:active{
-    
-    box-shadow:inset 6px 6px 8px 0 rgb(148, 147, 147),inset -8px -8px 12px 0 rgb(148, 147, 147);
+.niraj:hover .overlay{
+    z-index: 1;
+    transform: scale(1.025);
+    opacity: 0.85;
+    border-radius: 4%;
 }
 
-.image{
+.image_avtar{
     width: 100%;
+    border-radius: 4%;    
+    background-color: #3dc679;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+/*     background-image: linear-gradient(to RIGHT , #0cb1cb , #4dca83 );
+ */}
+
+.image_niraj{
+    width: 100%;
+    border-radius: 4%;
+    background-color: #0cb1cb;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+/*     background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
+ */}
+
+/* .name_avtar{
+    text-align: center;
+    top: 50%;
+    /* transform:translate(0,-100%) ; 
+    font-size: x-large;
+    position: absolute;
+    left: 28%;
+    top: 65%;
 }
-.image:hover{
-    visibility: hidden;
-}
+.name_niraj{
+    text-align: center;
+    top: 50%;
+    /* transform:translate(0,-100%) ; 
+    font-size: x-large;
+    position: absolute;
+    left: 66%;
+    top: 65%;
+} */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #94a2a7;
+  }
+  
+  .text {
+    color: white;
+    font-size: 520%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 700px){
+    .container{
+        height: 80%;
+        width: 80%;
+        margin: 5%;
+    }
+    .avtar{
+        width: 100%;
+        border-radius: 4%;
+        background-color: #3dc679;
+        background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
+        float: left;
+        background-position: center;
+        transition: 0.5s;
+        position: relative;
+    }
+    .avtar:hover .overlay{
+        z-index: 1;
+        transform: scale(1.025);
+        opacity: 0.85;
+        border-radius: 4%;
+    }
+
+    .niraj{
+        margin-top: 8% ;
+        width: 100%;
+        border-radius: 4%;
+        background-color: #3dc679;
+        background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb ); 
+        float: left;
+        background-position: center;
+        transition: 0.5s;
+        position: relative;
+    }
+    
+    .niraj:hover .overlay{
+        z-index: 1;
+        transform: scale(1.025);
+        opacity: 0.85;
+        border-radius: 4%;
+    }
+    .image_avtar{
+        width: 100%;
+        border-radius: 4%;    
+/*         background-color: #3dc679;
+ */        color: white;
+        font-size: 20px;
+        text-align: center;
+        background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
+    }
+    .image_niraj{
+        width: 100%;
+        border-radius: 4%;
+/*         background-color: #0cb1cb;
+ */        color: white;
+        font-size: 20px;
+        text-align: center;
+         background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
+     }
+     
+  }

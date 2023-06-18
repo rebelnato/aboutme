@@ -1,0 +1,25 @@
+.container{
+    height: 80%;
+    width: 80%;
+    margin: 5%;
+    margin-left: 10%;
+}
+
+.avtar{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 8%;
+    border-color: black;
+    background-position: center;
+    background-size: 80%;
+    border: 2px solid black;
+}
+
+.image{
+    width: 80%;
+}
+
+.image:hover{
+    display: none;
+}
