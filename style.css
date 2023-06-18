@@ -16,8 +16,7 @@ body{
     height: 80%;
     border-radius: 4%;
     background-color: #3dc679;
-/*     background-image: linear-gradient(to RIGHT , #0cb1cb , #4dca83 );
- */    float: left;
+    float: left;
     margin-left: 8%;
     background-position: center;
     transition: 0.5s;
@@ -34,7 +33,6 @@ body{
     width: 40%;
     border-radius: 4%;
     background-color: #0cb1cb;
-    /* background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb ); */
     float: left;
     margin-left: 8%;
     background-position: center;
@@ -56,8 +54,7 @@ body{
     color: white;
     font-size: 20px;
     text-align: center;
-/*     background-image: linear-gradient(to RIGHT , #0cb1cb , #4dca83 );
- */}
+ }
 
 .image_niraj{
     width: 100%;
@@ -66,27 +63,7 @@ body{
     color: white;
     font-size: 20px;
     text-align: center;
-/*     background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
- */}
-
-/* .name_avtar{
-    text-align: center;
-    top: 50%;
-    /* transform:translate(0,-100%) ; 
-    font-size: x-large;
-    position: absolute;
-    left: 28%;
-    top: 65%;
-}
-.name_niraj{
-    text-align: center;
-    top: 50%;
-    /* transform:translate(0,-100%) ; 
-    font-size: x-large;
-    position: absolute;
-    left: 66%;
-    top: 65%;
-} */
+ }
 
 .overlay {
     position: absolute;
@@ -113,7 +90,7 @@ body{
     text-align: center;
   }
 
-  @media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px){
     .container{
         height: 80%;
         width: 80%;
@@ -157,8 +134,7 @@ body{
     .image_avtar{
         width: 100%;
         border-radius: 4%;    
-/*         background-color: #3dc679;
- */        color: white;
+    color: white;
         font-size: 20px;
         text-align: center;
         background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
@@ -166,11 +142,10 @@ body{
     .image_niraj{
         width: 100%;
         border-radius: 4%;
-/*         background-color: #0cb1cb;
- */        color: white;
+        color: white;
         font-size: 20px;
         text-align: center;
-         background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
+        background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
      }
      
   }
