@@ -91,62 +91,84 @@ body{
     text-align: center;
   }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 960px){
+    *{
+        background-color: #030303;
+    }
     .container{
         height: 80%;
         width: 80%;
-        margin: 5%;
+        margin: 8%;
     }
     .avtar{
-        width: 100%;
+        width: 85%;
         border-radius: 4%;
-        background-color: #3dc679;
-        background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
-        float: left;
-        background-position: center;
-        transition: 0.5s;
-        position: relative;
-    }
-    .avtar:hover .overlay{
-        z-index: 1;
-        transform: scale(1.025);
-        opacity: 0.85;
-        border-radius: 4%;
-    }
-
-    .niraj{
-        margin-top: 8% ;
-        width: 100%;
-        border-radius: 4%;
-        background-color: #3dc679;
-        background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb ); 
-        float: left;
+        background-color: #ebf3f2;
+        box-shadow: -2px 10px 67px 14px rgba(0,0,0,0.1);
+/*         background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
+ */        float: left;
         background-position: center;
         transition: 0.5s;
         position: relative;
     }
     
-    .niraj:hover .overlay{
-        z-index: 1;
-        transform: scale(1.025);
-        opacity: 0.85;
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+        transition: .5s ease;
+        background-color: #ffffff00;
+      }
+
+    .niraj{
+        margin-top: 8% ;
+        width: 85%;
         border-radius: 4%;
+        background-color: #ebf3f2;
+/*         background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb ); 
+ */
+        background-position: center;
+        transition: 0.5s;
+        position: relative;
     }
+    
+    
     .image_avtar{
         width: 100%;
         border-radius: 4%;    
-    color: white;
+        color: white;
         font-size: 20px;
         text-align: center;
-        background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
-    }
+        background-color: #ebf3f2;
+/*         background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
+ */    }
     .image_niraj{
         width: 100%;
         border-radius: 4%;
         color: white;
         font-size: 20px;
         text-align: center;
-        background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
-     }
+        background-color: #ebf3f2;
+/*         background-image: linear-gradient(to RIGHT ,  #4dca83 ,#0cb1cb );
+ */     }
+
+     .text {
+        color: rgb(5, 5, 5);
+        font-size: 260%;
+        font-family: 'Libre Baskerville';
+        position: absolute;
+        background-color: #0cb2cb00;
+        top: 90%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
      
   }
