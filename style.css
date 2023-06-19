@@ -11,7 +11,7 @@ body{
     margin-left: 10%;
 }
 
-.avtar{
+.avtar {
     width: 40%;
     height: 80%;
     border-radius: 4%;
@@ -25,11 +25,11 @@ body{
 .avtar:hover .overlay{
     z-index: 1;
     transform: scale(1.025);
-    opacity: 0.85;
+    opacity: 1;
     border-radius: 4%;
 }
 
-.niraj{
+.niraj {
     width: 40%;
     border-radius: 4%;
     background-color: #0cb1cb;
@@ -43,7 +43,7 @@ body{
 .niraj:hover .overlay{
     z-index: 1;
     transform: scale(1.025);
-    opacity: 0.85;
+    opacity: 1;
     border-radius: 4%;
 }
 
@@ -75,12 +75,13 @@ body{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #94a2a7;
+    background-color: #6bc8ea;
   }
   
   .text {
-    color: white;
+    color: rgb(5, 5, 5);
     font-size: 520%;
+    font-family: 'Libre Baskerville';
     position: absolute;
     top: 50%;
     left: 50%;
