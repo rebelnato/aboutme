@@ -73,6 +73,7 @@ body{
     font-family: 'Libre Baskerville';
     left: 30%;
     top: 80%;
+    -webkit-text-stroke: 1px rgb(185, 179, 179);
  }
 
 /*.overlay {
@@ -187,6 +188,7 @@ body{
         font-family: 'Libre Baskerville';
         left: 30%;
         top: 80%;
+        -webkit-text-stroke: 1px rgb(185, 179, 179);
      }
     
   }
